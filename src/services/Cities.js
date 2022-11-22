@@ -1,8 +1,4 @@
-
-
-
 export const cities = [
-
     { key: 1, text: "Adana", lat:37.0000,lon:35.3213, value:1 },
     { key: 2, text: "Adıyaman", lat:37.7648,lon:38.2786, value:2 },
     { key: 3, text: "Afyonkarahisar", lat:38.7507,lon:30.5567, value:3 },
@@ -84,4 +80,3 @@ export const cities = [
     { key: 79, text: "Kilis", lat:36.7184,lon:37.1212, value: 79},
     { key: 80, text: "Osmaniye", lat:37.2130,lon:36.1763, value: 80},
     { key: 81, text: "Düzce", lat:40.8438,lon:31.1565, value:81 }]
-
