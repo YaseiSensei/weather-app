@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Checkbox, Dropdown, Icon, Image, Menu, Sticky } from 'semantic-ui-react'
+import { Checkbox, Dropdown, Icon, Menu, Sticky } from 'semantic-ui-react'
 
 import { useTheme } from '../contexts/ThemeContext'
 import { cities } from '../services/Cities.js'
@@ -29,7 +29,7 @@ export default function Navi() {
 
 
     return (
-        <Sticky>
+        <Sticky >
             <Menu  className={`ui ${theme} menu`} style={{ paddingLeft: "240px", borderRadius: "0px", }}>
                     
               
@@ -54,11 +54,11 @@ export default function Navi() {
                     {theme === "inverted" ? <Icon name="moon" size='large' style={{ marginLeft: "11px" }} /> : <Icon name="sun" color="yellow" size='large' style={{ marginLeft: "11px" }} />}
 
                 </Menu.Item>
+                </Menu>
+           </Sticky> 
+           
 
-
-            </Menu>
-
-        </Sticky>
+       
 
     )
 }
